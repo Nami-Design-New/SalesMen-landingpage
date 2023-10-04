@@ -875,7 +875,10 @@ footer .container .col-12 {
   }
 }
 footer .container .col-12:last-child {
-  padding: 24px 0;
+  padding: 0 0 24px;
+}
+footer .container .col-12 a {
+  display: contents;
 }
 footer .container .col-12 a img {
   max-height: 100px;
@@ -898,9 +901,6 @@ footer .container .col-12 a {
 }
 footer .container .col-12 a:hover {
   color: #25405b;
-}
-footer .copy {
-  border-top: 1px solid #dbdbdb;
 }
 footer .copy p {
   direction: ltr !important;

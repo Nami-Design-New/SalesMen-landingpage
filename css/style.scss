@@ -872,10 +872,13 @@ footer {
       padding: 24px;
     }
     &:last-child {
-      padding: 24px 0;
+      padding: 0 0 24px;
     }
-    a img {
-      max-height: 100px;
+    a {
+      display: contents;
+      img {
+        max-height: 100px;
+      }
     }
     p {
       font-size: 14px;
@@ -900,7 +903,6 @@ footer {
     }
   }
   .copy {
-    border-top: 1px solid #dbdbdb;
     p {
       direction: ltr !important;
       color: #000;
