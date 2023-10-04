@@ -77,8 +77,14 @@ toggler.addEventListener("click", () => {
   if (document.querySelector(".nav-links").classList.contains("active")) {
     toggler.querySelector("i").classList =
       "fa-sharp fa-solid fa-bars-staggered";
+    if (!header.classList.contains("sticky")) {
+      header.classList.add("fff");
+    }
   } else {
     toggler.querySelector("i").classList = "fa-sharp fa-solid fa-bars";
+    if (!header.classList.contains("sticky")) {
+      header.classList.remove("fff");
+    }
   }
 });
 let links = document.querySelectorAll(".nav-link");

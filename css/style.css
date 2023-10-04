@@ -102,6 +102,9 @@ header.sticky {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
 }
+header.fff {
+  background: #fff;
+}
 header nav {
   height: 100px;
   width: 100%;
@@ -266,7 +269,7 @@ header nav .container .buttons a:hover::after {
 }
 @media (max-width: 576px) {
   .hero-section {
-    padding: 30px 12px 0;
+    padding: 120px 12px 0;
   }
 }
 .hero-section .underlay {
